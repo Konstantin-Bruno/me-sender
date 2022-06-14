@@ -1,0 +1,120 @@
+.features {
+  background-color: #f3f9fe;
+  background-image: url(../images/background/dots.png);
+  background-size: 300px 300px;
+  background-position: 395px 223px;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+.secondary__title {
+  margin-bottom: 49px;
+  @media screen and(min-width:1130px) {
+    margin-bottom: 60px;
+  }
+}
+
+.features__marker {
+  padding-top: 78px;
+}
+
+.curve__features__title {
+  position: absolute;
+  width: 57px;
+  height: 9px;
+  bottom: -23%;
+  left: -4%;
+  @media screen and(min-width:1130px) {
+    width: 103px;
+    height: 12px;
+  }
+}
+
+.features__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  @media screen and(min-width:1130px) {
+    margin-bottom: 60px;
+  }
+
+  &__item {
+    width: 143px;
+
+    @media screen and(max-width:1129px) {
+      &:not(:nth-child(even)) {
+        margin-right: 26px;
+      }
+      &:not(:nth-child(n + 5)) {
+        margin-bottom: 40px;
+      }
+    }
+    @media screen and(min-width:1130px) {
+      width: 288px;
+      &:not(:nth-child(3n)) {
+        margin-right: 62px;
+      }
+      &:not(:nth-child(n + 4)) {
+        margin-bottom: 38px;
+      }
+    }
+  }
+}
+.features__list__item__title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1;
+  color: $main-text-color;
+  margin: 0;
+  margin-top: 15px;
+  margin-bottom: 7px;
+  @media screen and(min-width:1130px) {
+    font-size: 24px;
+  }
+}
+
+.features__list__item__description {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.33;
+  color: rgba(62, 72, 87, 0.6);
+  margin: 0;
+  @media screen and(min-width:1130px) {
+    font-size: 18px;
+    line-height: 1.56;
+  }
+}
+.features-card {
+  width: 143px;
+  height: 139px;
+  background: #ffffff;
+  background-image: url(../images/svg/AB-Tests.svg);
+  background-repeat: no-repeat;
+  background-size: 106px 116px;
+  background-position: 50% 50%;
+  border-radius: 30px;
+  @media screen and(min-width:1130px) {
+    background-size: 220px 238px;
+    width: 288px;
+    height: 298px;
+  }
+}
+.features__list__item:nth-child(2) .features-card {
+  background-image: url(../images/svg/Personalization.svg);
+}
+.features__list__item:nth-child(3) .features-card {
+  background-image: url(../images/svg/Segmentation.svg);
+}
+.features__list__item:nth-child(4) .features-card {
+  background-image: url(../images/svg/Pop-ups.svg);
+}
+.features__list__item:nth-child(5) .features-card {
+  background-image: url(../images/svg/АМР-support.svg);
+}
+.features__list__item:nth-child(6) .features-card {
+  background-image: url(../images/svg/Automation.svg);
+}
+.features__btn {
+  margin-bottom: 100px;
+}

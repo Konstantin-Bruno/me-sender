@@ -1,0 +1,180 @@
+.hero {
+  background-color: #f3f9fe;
+  background-image: url(../images/background/dots.png),
+    url(../images/background/undraw_handcrafts_envelope-1.png),
+    url(../images/background/undraw_handcrafts_envelope-2.png),
+    url(../images/background/undraw_handcrafts_envelope-3.png),
+    url(../images/background/hero-bg.png);
+  background-position: 20% 25%, 71% 10%, 20% 75%, 90% 60%, right 0 top 0;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 0;
+  height: 629px;
+  @media screen and (min-width: 1130px) {
+    height: 910px;
+  }
+}
+.title {
+  margin: 0;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.5;
+  text-align: center;
+  color: $main-text-color;
+  position: relative;
+  width: 314px;
+  margin: 0 auto;
+  padding-top: 145px;
+  @media screen and (min-width: 1130px) {
+    font-size: 50px;
+    line-height: 1.5;
+    width: 705px;
+    padding-top: 232px;
+    margin-bottom: 21px;
+  }
+}
+.hero__title__word {
+  display: inline-block;
+  position: relative;
+}
+.curve__ic {
+  position: absolute;
+  width: 69px;
+  height: 6px;
+  bottom: -2px;
+  left: -2%;
+  @media screen and (min-width: 1130px) {
+    width: 161px;
+    height: 15px;
+    bottom: 0;
+    left: -4%;
+  }
+}
+
+.word__logo {
+  position: relative;
+  display: inline-block;
+  color: #41b4e6;
+}
+.word__logo__icon {
+  position: absolute;
+  height: 33px;
+  width: 143px;
+  bottom: -8%;
+  right: -7%;
+  @media screen and (min-width: 1130px) {
+    bottom: -4%;
+    right: -4%;
+    height: 80px;
+    width: 316px;
+  }
+}
+.hero__descripton {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: rgba(62, 72, 87, 0.6);
+  margin: 0 auto;
+  margin-bottom: 90px;
+  @media screen and (min-width: 1130px) {
+    font-size: 18px;
+    line-height: 1.56;
+    width: 510px;
+    margin-bottom: 79px;
+  }
+}
+.main__btn__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 89px;
+  @media screen and (min-width: 1130px) {
+    padding-bottom: 128px;
+  }
+}
+
+.main__btn__text-ic {
+  fill: #41b4e6;
+  width: 13px;
+  height: 13px;
+  margin-right: 6px;
+}
+
+.hero__text {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 2.15;
+  color: rgba(62, 72, 87, 0.8);
+  margin: 0;
+}
+
+.hero__features {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 313px;
+  height: 56px;
+  background: #fdfeff;
+  border-radius: 50px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+
+  @media screen and (min-width: 1130px) {
+    width: 763px;
+    height: 72px;
+  }
+}
+
+.hero__features__item {
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 1.2;
+  color: $secondary-text-color;
+  &-ic {
+    fill: $secondary-text-color;
+    margin-right: 6px;
+    align-items: center;
+  }
+  @media screen and (max-width: 1129px) {
+    &:last-child {
+      padding-bottom: 10px;
+    }
+    &:not(:last-child) {
+      padding-top: 10px;
+    }
+  }
+  @media screen and (min-width: 1130px) {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.56;
+    padding: 0;
+  }
+}
+
+.hero__features__item-ic.ic-1 {
+  @media screen and (min-width: 1130px) {
+    width: 18px;
+    height: 14px;
+  }
+  width: 9px;
+  height: 7px;
+}
+
+.hero__features__item-ic.ic-2 {
+  @media screen and (min-width: 1130px) {
+    width: 21px;
+    height: 13px;
+  }
+  width: 10px;
+  height: 7px;
+}
+
+.hero__features__item-ic.ic-3 {
+  @media screen and (min-width: 1130px) {
+    width: 19px;
+    height: 16px;
+  }
+  width: 9px;
+  height: 9px;
+}
