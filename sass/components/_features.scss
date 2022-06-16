@@ -1,22 +1,35 @@
 .features {
-  background-color: #f3f9fe;
-  background-image: url(../images/background/dots.png);
-  background-size: 300px 300px;
-  background-position: 395px 223px;
-  background-repeat: no-repeat;
+  background-color: $main-background-color;
   text-align: center;
-  padding: 0 auto;
   margin: 0 auto;
-}
-.secondary__title {
-  margin-bottom: 49px;
-  @media screen and(min-width:1130px) {
-    margin-bottom: 60px;
+  &features__title {
+    margin-bottom: 49px;
+    @media screen and(min-width:1130px) {
+      margin-bottom: 60px;
+    }
+  }
+  &features__marker {
+    padding-top: 60px;
+    margin-bottom: 6px;
+    @media screen and(min-width:1130px) {
+      margin-bottom: 20px;
+      padding-top: 78px;
+    }
   }
 }
-
-.features__marker {
-  padding-top: 78px;
+.features__container {
+  background-image: url(../images/background/features-dots-r.png),
+    url(../images/background/features-bg-l.png);
+  background-repeat: no-repeat;
+  background-position: 224px -128px, 37px -33px;
+  background-size: 256px 256px, 331px 267px;
+  @media screen and(min-width:1130px) {
+    background-image: url(../images/background/dots.png),
+      url(../images/background/features-bg-l.png);
+    background-size: 385px 385px, 593px 479px;
+    background-position: 110% -20%, 100% 0;
+    background-repeat: no-repeat;
+  }
 }
 
 .curve__features__title {
@@ -32,13 +45,13 @@
 }
 
 .features__list {
+  justify-content: center;
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 50px;
   @media screen and(min-width:1130px) {
     margin-bottom: 60px;
   }
-
   &__item {
     width: 143px;
 
@@ -61,6 +74,7 @@
     }
   }
 }
+
 .features__list__item__title {
   font-weight: 700;
   font-size: 16px;
@@ -85,6 +99,7 @@
     line-height: 1.56;
   }
 }
+
 .features-card {
   width: 143px;
   height: 139px;
@@ -100,21 +115,27 @@
     height: 298px;
   }
 }
+
 .features__list__item:nth-child(2) .features-card {
   background-image: url(../images/svg/Personalization.svg);
 }
+
 .features__list__item:nth-child(3) .features-card {
   background-image: url(../images/svg/Segmentation.svg);
 }
+
 .features__list__item:nth-child(4) .features-card {
   background-image: url(../images/svg/Pop-ups.svg);
 }
+
 .features__list__item:nth-child(5) .features-card {
   background-image: url(../images/svg/АМР-support.svg);
 }
+
 .features__list__item:nth-child(6) .features-card {
   background-image: url(../images/svg/Automation.svg);
 }
+
 .features__btn {
   margin-bottom: 100px;
 }

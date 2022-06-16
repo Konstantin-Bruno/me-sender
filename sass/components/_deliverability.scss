@@ -1,15 +1,18 @@
-.deliverability-bg {
-  background-image: url(../images/background/deliverability-envelope-box.png);
+.deliverability__container {
+  background-image: url(../images/background/deliverability-envelope-box.png),
+    url(../images/background/deliverability-dots-left_m.png),
+    url(../images/background/deliverability-dots_m.png);
   background-repeat: no-repeat;
-  background-position: 50% 100%;
-  background-size: 174px 192px;
+  background-position: 50% 100%, 0 0, 100% 100%;
+  background-size: 174px 192px, auto, auto;
   @media screen and (min-width: 1130px) {
     background-image: url(../images/background/deliverability-envelope-box.png),
-      url(../images/background/deliverability-envelopes.png)
-        /* url(../images/background/dots.png)*/;
+      url(../images/background/deliverability-envelopes.png),
+      url(../images/background/deliverability-dots-left.png),
+      url(../images/background/deliverability-dots.png);
     background-size: auto, auto;
     background-repeat: no-repeat;
-    background-position: 0 100%, 90% 65%;
+    background-position: 0 100%, 90% 65%, 0 100%, 100% 0;
   }
 }
 .deliverability {

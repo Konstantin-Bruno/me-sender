@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
+  <title>Me-Sender</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
@@ -14,9 +14,10 @@
   <link rel="stylesheet" href="https://yarnpkg.com/en/package/normalize.css" />
   <link rel="stylesheet" href="css/main.min.css" />
 </head>
-
 <body>
+
   <!-- Header -->
+
   <header class="header">
     <div class="container">
       <div class="header__inner">
@@ -34,21 +35,22 @@
         </div>
 
         <!-- nav menu -->
+
         <nav class="menu">
           <ul class="menu__list">
             <li class="menu__item"><a href="#">Home</a></li>
-            <li class="menu__item"><a href="#">Pricing</a></li>
+            <li class="menu__item"><a href="#tarifs-section">Pricing</a></li>
             <li class="menu__item">
-              <a href="#">Features<svg class="nav-ic">
+              <a href="#features-section">Features<svg class="nav-ic">
                   <use href="./images/svg/symbol-defs.svg#icon-Vector-14"></use>
                 </svg></a>
             </li>
-            <li class="menu__item"><a href="#">Knowledge Base</a></li>
-            <li class="menu__item"><a href="#">About Us</a></li>
+            <li class="menu__item"><a href="#information">Knowledge Base</a></li>
+            <li class="menu__item"><a href="#about-us-section">About Us</a></li>
           </ul>
         </nav>
         <ul class="header__form">
-          <li class="form__item">Sign Up</li>
+          <li class="form__item"><a href="#">Sign Up</a></li>
           <li class="form__item">
             <button type="button" class="btn__log">Log In</button>
           </li>
@@ -60,13 +62,13 @@
       </div>
     </div>
   </header>
+
   <!-- Hero -->
 
   <section class="hero">
-    <div class="container">
+    <div class="container hero__container">
       <h1 class="title">
-        Smart
-        <span class="hero__title__word">Email<svg class="curve__ic">
+        Smart <span class="hero__title__word">Email<svg class="curve__ic">
             <use href="./images/svg/symbol-defs.svg#icon-curve-h1"></use>
           </svg></span>
         for Smart Business with ME
@@ -80,7 +82,6 @@
         traffic to your website.
       </p>
       <a class="main__btn" href="#">GET STARTED FOR FREE</a>
-
       <div class="main__btn__text">
         <svg class="main__btn__text-ic">
           <use href="./images/svg/symbol-defs.svg#icon-for-button-text"></use>
@@ -106,11 +107,13 @@
       </ul>
     </div>
   </section>
+
   <!-- Steps -->
+
   <section class="steps" id="steps-section">
     <div class="container">
       <div class="marker step__marker">easy steps</div>
-      <h2 class="secondary__title">
+      <h2 class="secondary__title step__section__title">
         From ideas to first
         <span class="title__word">sales<svg class="curve__steps__title">
             <use href="./images/svg/symbol-defs.svg#icon-curve-h1"></use>
@@ -153,72 +156,56 @@
       </ul>
     </div>
   </section>
+
   <!-- Features -->
+  
   <section class="features" id="features-section">
-    <div class="container">
+    <div class="container features__container">
       <div class="marker features__marker">Features</div>
-      <h2 class="secondary__title">
+      <h2 class="secondary__title features__title">
         <span class="title__word">Boost<svg class="curve__features__title">
             <use href="./images/svg/symbol-defs.svg#icon-curve-h1"></use>
           </svg></span>
         your performance
       </h2>
       <ul class="features__list">
-        <li class="features__list__item">
-          <div class="features-card">
-            <!-- <img src="../images/svg/AB-Tests.svg" alt="" /> -->
-          </div>
-          <h3 class="features__list__item__title">A/B Tests</h3>
+        <li class="features__list__item"><div class="features-card"></div>
+           <h3 class="features__list__item__title">A/B Tests</h3>
           <p class="features__list__item__description">
             Use A/B testing to find out which email works. No guesswork, just
             numbers.
           </p>
         </li>
-        <li class="features__list__item">
-          <div class="features-card">
-            <!-- <img src="../images/svg/Personalization.svg" alt="" /> -->
-          </div>
+        <li class="features__list__item"><div class="features-card"></div>
           <h3 class="features__list__item__title">Personalization</h3>
           <p class="features__list__item__description">
             Personalize your messages to send only what matters to each
             subscriber.
           </p>
         </li>
-        <li class="features__list__item">
-          <div class="features-card">
-            <!-- <img src="../images/svg/Segmentation.svg" alt="" /> -->
-          </div>
+        <li class="features__list__item"><div class="features-card"></div>
           <h3 class="features__list__item__title">Segmentation</h3>
           <p class="features__list__item__description">
             Segment your subscribers to send relevant content to each of them.
             70+ criteria: location, gender, activity, and many more.
           </p>
         </li>
-        <li class="features__list__item">
-          <div class="features-card">
-            <!-- <img src="../images/svg/Pop-ups.svg" alt="" /> -->
-          </div>
+        <li class="features__list__item"><div class="features-card"></div>
           <h3 class="features__list__item__title">Pop-ups</h3>
           <p class="features__list__item__description">
             Collect contacts and grow your audience with pop-up subscription
             forms. 25+ templates for the most popular occasions.
           </p>
         </li>
-        <li class="features__list__item">
-          <div class="features-card">
-            <!-- <img src="../images/svg/АМР-support.svg" alt="" /> -->
-          </div>
-          <h3 class="features__list__item__title">АМР support</h3>
+        <li class="features__list__item"><div class="features-card"></div>
+           <h3 class="features__list__item__title">АМР support</h3>
           <p class="features__list__item__description">
             Add interactive elements to your emails: payment, polls and
             carousels
           </p>
         </li>
-        <li class="features__list__item">
-          <div class="features-card">
-            <!-- <img src="../images/svg/Automation.svg" alt="" /> -->
-          </div>
-          <h3 class="features__list__item__title">Automation</h3>
+        <li class="features__list__item"><div class="features-card"></div>
+           <h3 class="features__list__item__title">Automation</h3>
           <p class="features__list__item__description">
             Use ready-to-use workflows for targeted communication with
             subscribers at the right time
@@ -228,7 +215,9 @@
       <a class="main__btn features__btn" href="#">GET STARTED FOR FREE</a>
     </div>
   </section>
+
   <!-- first campaign  -->
+
   <section class="first__campaign">
     <div class="container first__campaign__container">
       <h2 class="first__campaign__title">
@@ -241,7 +230,9 @@
       <a class="main__btn first__campaign__btn" href="#">GET STARTED FOR FREE</a>
     </div>
   </section>
+
   <!-- Tarifs -->
+
   <section class="tarifs" id="tarifs-section">
     <div class="container">
       <div class="marker tarifs__marker">Tarifs</div>
@@ -342,9 +333,11 @@
       </ul>
     </div>
   </section>
+
   <!-- Information -->
-  <section class="information">
-    <div class="container information-container">
+
+  <section class="information" id="information">
+    <div class="container information__container">
       <div class="marker information__marker">Information</div>
       <h2 class="secondary__title information__title">
         Frequently Asked
@@ -443,9 +436,11 @@
       </div>
     </div>
   </section>
+
   <!-- Deliverability -->
+
   <section class="deliverability">
-    <div class="container deliverability-bg">
+    <div class="container deliverability__container">
       <div class="marker deliverability__marker">Deliverability</div>
       <h2 class="secondary__title deliverability__title">
         Last month we
@@ -462,14 +457,14 @@
       </div>
     </div>
   </section>
+
   <!-- About Us -->
 
   <section class="about-us" id="about-us-section">
     <div class="container about-us__container">
       <div class="marker about-us__marker">About Us</div>
       <h2 class="secondary__title about-us__title">
-        Why
-        <span class="title__word">Me-Sender<svg class="curve__about-us__title">
+        Why <span class="title__word">Me-Sender<svg class="curve__about-us__title">
             <use href="./images/svg/symbol-defs.svg#icon-curve-h1"></use>
           </svg></span>?
       </h2>
@@ -509,7 +504,9 @@
         </li>
       </ul>
     </div>
+
     <!-- about-us inner -->
+
     <div class="about-us__inner">
       <h2 class="about-us__inner__title">
         Create an email
@@ -531,7 +528,9 @@
       </div>
     </div>
   </section>
+
   <!-- Our Partners -->
+  
   <section class="our-partners">
     <div class="container">
       <div class="marker our-partners__marker">Our Partners</div>
@@ -565,7 +564,9 @@
       </ul>
     </div>
   </section>
+
   <!-- Footer -->
+  
   <section class="footer">
     <div class="container">
       <div class="logo__and__social">
@@ -608,63 +609,68 @@
             <button class="footer__btn" type="submit">subscribe</button>
           </form>
         </li>
-        <li>
+        <li class="mobile__icon__footer">
           <ul class="icons__footer">            
             <li class="google-partners"><a class="google-partners-link"href="#"></a>
             </li>
             <li class="norton">
               <a class="norton-link" href="#"></a></li>
+              </ul>
+              <ul class="icons__footer">  
             <li class="stars"><a class="stars-link"href="#"></a></li>
           </ul>
         </li>
       </ul>
     </div>
+
     <!-- Footer inner -->
+    
     <div class="footer__inner">
       <div class="container">
         <ul class="footer__inner__list">
-          <li class="footer-inner-list-item"><svg class="footer-icon icon-qr">
+          <li class="footer-inner__list__item"><svg class="icon-qr">
               <use href="./images/svg/symbol-defs.svg#icon-qr"></use>
             </svg></li>
-          <li class="footer-inner-list-item"><svg class="footer-icon icon-page">
+          <li class="footer-inner__list__item"><svg class="icon-page">
               <use href="./images/svg/symbol-defs.svg#icon-page"></use>
             </svg></li>
-          <li class="footer-inner-list-item"><svg class="footer-icon icon-review">
+            <li class="footer-inner__list__item"><svg class="icon-ads">
+                <use href="./images/svg/symbol-defs.svg#icon-ads"></use>
+              </svg></li>
+          <li class="footer-inner__list__item"><svg class="icon-review">
               <use href="./images/svg/symbol-defs.svg#icon-review"></use>
             </svg></li>
-          <li class="footer-inner-list-item"><svg class="footer-icon icon-booking">
-              <use href="./images/svg/symbol-defs.svg#icon-booking"></use>
-            </svg></li>
-          <li class="footer-inner-list-item"><svg class="footer-icon icon-ads">
-              <use href="./images/svg/symbol-defs.svg#icon-ads"></use>
-            </svg></li>
-          <li class="footer-inner-list-item"><svg class="footer-icon icon-city">
+            <li class="footer-inner__list__item"><svg class="icon-city">
               <use href="./images/svg/symbol-defs.svg#icon-city"></use>
             </svg></li>
-          <li class="footer-inner-list-item"><svg class="footer-icon icon-promo">
+            <li class="footer-inner__list__item"><svg class="icon-booking">
+                <use href="./images/svg/symbol-defs.svg#icon-booking"></use>
+              </svg></li>
+          <li class="footer-inner__list__item"><svg class="icon-promo">
               <use href="./images/svg/symbol-defs.svg#icon-promo"></use>
             </svg></li>
         </ul>
       </div>
     </div>
   </section>
+ 
   <!-- copyright -->
+ 
   <div class="copyright container">
-    <ul class="copyright-list">
-      <li><svg class="icon-privacy">
+    <ul class="copyright__list">
+      <li class="copyright__list__item"><svg class="icon-privacy">
           <use href="./images/svg/symbol-defs.svg#icon-privacy"></use>
         </svg>Privacy Policy</li>
-      <li class="copyright-list-text">&#169 2018-2022, made with &#x2665 by <span
+      <li class="copyright__list__item">&#169 2018-2022, made with &#x2665 by <span
           class="copyright-list-text-word">Me-Team</span> for a better web.</li>
-      <li>
-        <ul class="pay-system">
-          <li class="pay-system-items"><a href="#"><img src="./images/svg/visa.png" alt=""></a></li>
-          <li class="pay-system-items"><a href="#"><img src="./images/svg/mastercard.png" alt=""></a></li>
-          <li class="pay-system-items"><a href="#"><img src="./images/svg/paypal.png" alt=""></a></li>
+      <li class="copyright__list__item">        
+        <ul class="pay__system">
+          <li class="pay__system__items"><a href="#"></a></li>
+          <li class="pay__system__items"><a href="#"></a></li>
+          <li class="pay__system__items"><a href="#"></a></li>
         </ul>
       </li>
     </ul>
   </div>
-</body>
-
+  </body>
 </html>

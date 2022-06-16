@@ -10,11 +10,13 @@
     margin-bottom: 21px;
   }
 }
-.information-container {
+.information__container {
   @media screen and (min-width: 1130px) {
-    background-image: url(../images/background/information_bg.png);
+    background-image: url(../images/background/information_bg.png),
+      url(../images/background/information-dots-l.png),
+      url(../images/background/information-dots-r.png);
     background-repeat: no-repeat;
-    background-position: 100% 65%;
+    background-position: 100% 65%, 0 -193px, 105% 80%;
   }
 }
 

@@ -1,7 +1,12 @@
 .step__marker {
   padding-top: 73px;
 }
-
+.step__section__title {
+  margin-bottom: 47px;
+  @media screen and(min-width:1130px) {
+    margin-bottom: 80px;
+  }
+}
 .curve__steps__title {
   position: absolute;
   width: 51px;

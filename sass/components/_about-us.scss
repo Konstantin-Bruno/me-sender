@@ -8,7 +8,7 @@
     background-size: 311px 304px;
     @media screen and (min-width: 1130px) {
       background-position: 85% 100%;
-      background-position: auto;
+      background-size: auto;
     }
   }
   &__marker {
@@ -95,16 +95,21 @@
 .about-us__inner {
   max-width: 311px;
   text-align: center;
-  background-image: url(../images/background/about-us-inner-bg.png);
+  background-image: url(../images/background/about-us-inner-bg.png),
+    url(../images/background/about-us-dots-l.png);
+  background-size: 168px 89px, auto;
+  background-position: 50% 15%, 0 0;
   background-repeat: no-repeat;
-  background-position: 50% 15%;
-  background-size: 168px 89px;
-
   background-color: #ffffff;
   border-radius: 50px;
   margin: 0 auto;
   @media screen and (min-width: 1130px) {
-    background-position: 50% 15%;
+    background-image: url(../images/background/about-us-inner-bg.png),
+      url(../images/background/about-us-dots-l.png),
+      url(../images/background/about-us-dots-r.png),
+      url(../images/background/about-us-envelope-2.png),
+      url(../images/background/about-us-envelope-1.png);
+    background-position: 50% 15%, 0 0, 100% 100%, 20% 80%, 80% 20%;
     background-size: auto;
     max-width: 1297px;
   }

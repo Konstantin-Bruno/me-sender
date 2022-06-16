@@ -25,13 +25,11 @@ body {
 }
 
 .container {
-  width: 334px;
-  padding: 0 10px;
+  width: 375px;
+  padding: 0 30px;
   margin: 0 auto;
-}
-
-@media screen and (min-width: 1130px) {
-  .container {
+  @media screen and (min-width: 1130px) {
+    padding: 0 10px;
     width: 1130px;
   }
 }
