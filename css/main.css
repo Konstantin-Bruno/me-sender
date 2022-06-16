@@ -1282,6 +1282,16 @@ body {
   }
 }
 
+.tarifs__title {
+  margin-bottom: 45px;
+}
+
+@media screen and (min-width: 1130px) {
+  .tarifs__title {
+    margin-bottom: 73px;
+  }
+}
+
 .tarifs__marker {
   padding-top: 60px;
 }
@@ -1315,6 +1325,7 @@ body {
   text-align: left;
   font-weight: 400;
   margin: 0;
+  margin-bottom: 18px;
 }
 
 @media screen and (min-width: 1130px) {
