@@ -3,6 +3,11 @@
   text-align: center;
   @media screen and (min-width: 1130px) {
     text-align: left;
+    background-image: url(../images/background/campaign-dots-r.png),
+      url(../images/background/campaign-dots.png);
+    background-size: 385px 193px, 385px 290px;
+    background-position: 93% 100%, 7% 0;
+    background-repeat: no-repeat;
   }
 }
 .first__campaign__container {
@@ -12,11 +17,9 @@
   background-size: 274px 224px, auto, auto;
   background-position: 90% 53%, 100% 100%, 0 0;
   @media screen and (min-width: 1130px) {
-    background-image: url(../images/background/envelope.png),
-      url(../images/background/campaign-dots-r.png),
-      url(../images/background/campaign-dots.png);
-    background-size: 491px 402px, 385px 193px, 385px 290px;
-    background-position: 90% 50%, 100% 100%, 0 0;
+    background-image: url(../images/background/envelope.png);
+    background-size: 491px 402px;
+    background-position: 90% 50%;
   }
 }
 

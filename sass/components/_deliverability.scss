@@ -7,12 +7,10 @@
   background-size: 174px 192px, auto, auto;
   @media screen and (min-width: 1130px) {
     background-image: url(../images/background/deliverability-envelope-box.png),
-      url(../images/background/deliverability-envelopes.png),
-      url(../images/background/deliverability-dots-left.png),
-      url(../images/background/deliverability-dots.png);
+      url(../images/background/deliverability-envelopes.png);
     background-size: auto, auto;
     background-repeat: no-repeat;
-    background-position: 0 100%, 90% 65%, 0 100%, 100% 0;
+    background-position: 0 100%, 90% 65%;
   }
 }
 .deliverability {
@@ -20,6 +18,12 @@
   text-align: center;
   color: #ffffff;
   margin: 0;
+  @media screen and (min-width: 1130px) {
+    background-image: url(../images/background/deliverability-dots-left.png),
+      url(../images/background/deliverability-dots.png);
+    background-position: 0 100%, 100% 0;
+    background-repeat: no-repeat;
+  }
 
   &__marker {
     @media screen and (min-width: 1130px) {

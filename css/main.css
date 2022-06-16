@@ -649,6 +649,7 @@ body {
   width: 314px;
   margin: 0 auto;
   padding-top: 145px;
+  margin-bottom: 22px;
 }
 
 @media screen and (min-width: 1130px) {
@@ -1014,23 +1015,32 @@ body {
   margin: 0 auto;
 }
 
-.featuresfeatures__title {
+@media screen and (min-width: 1130px) {
+  .features {
+    background-image: url(../images/background/dots.png);
+    background-size: 385px 385px;
+    background-position: 104% -20%;
+    background-repeat: no-repeat;
+  }
+}
+
+.features__title {
   margin-bottom: 49px;
 }
 
 @media screen and (min-width: 1130px) {
-  .featuresfeatures__title {
+  .features__title {
     margin-bottom: 60px;
   }
 }
 
-.featuresfeatures__marker {
+.features__marker {
   padding-top: 60px;
   margin-bottom: 6px;
 }
 
 @media screen and (min-width: 1130px) {
-  .featuresfeatures__marker {
+  .features__marker {
     margin-bottom: 20px;
     padding-top: 78px;
   }
@@ -1045,9 +1055,9 @@ body {
 
 @media screen and (min-width: 1130px) {
   .features__container {
-    background-image: url(../images/background/dots.png), url(../images/background/features-bg-l.png);
-    background-size: 385px 385px, 593px 479px;
-    background-position: 110% -20%, 100% 0;
+    background-image: url(../images/background/features-bg-l.png);
+    background-size: 593px 479px;
+    background-position: 100% 0;
     background-repeat: no-repeat;
   }
 }
@@ -1192,6 +1202,10 @@ body {
 @media screen and (min-width: 1130px) {
   .first__campaign {
     text-align: left;
+    background-image: url(../images/background/campaign-dots-r.png), url(../images/background/campaign-dots.png);
+    background-size: 385px 193px, 385px 290px;
+    background-position: 93% 100%, 7% 0;
+    background-repeat: no-repeat;
   }
 }
 
@@ -1204,9 +1218,9 @@ body {
 
 @media screen and (min-width: 1130px) {
   .first__campaign__container {
-    background-image: url(../images/background/envelope.png), url(../images/background/campaign-dots-r.png), url(../images/background/campaign-dots.png);
-    background-size: 491px 402px, 385px 193px, 385px 290px;
-    background-position: 90% 50%, 100% 100%, 0 0;
+    background-image: url(../images/background/envelope.png);
+    background-size: 491px 402px;
+    background-position: 90% 50%;
   }
 }
 
@@ -1497,6 +1511,14 @@ body {
   background-color: #f3f9fe;
 }
 
+@media screen and (min-width: 1130px) {
+  .information {
+    background-image: url(../images/background/information-dots-l.png);
+    background-repeat: no-repeat;
+    background-position: 180px -193px;
+  }
+}
+
 .information__marker {
   padding-top: 60px;
   margin-bottom: 6px;
@@ -1512,9 +1534,9 @@ body {
 
 @media screen and (min-width: 1130px) {
   .information__container {
-    background-image: url(../images/background/information_bg.png), url(../images/background/information-dots-l.png), url(../images/background/information-dots-r.png);
+    background-image: url(../images/background/information_bg.png), url(../images/background/information-dots-r.png);
     background-repeat: no-repeat;
-    background-position: 100% 65%, 0 -193px, 105% 80%;
+    background-position: 100% 65%, 105% 80%;
   }
 }
 
@@ -1704,10 +1726,10 @@ body {
 
 @media screen and (min-width: 1130px) {
   .deliverability__container {
-    background-image: url(../images/background/deliverability-envelope-box.png), url(../images/background/deliverability-envelopes.png), url(../images/background/deliverability-dots-left.png), url(../images/background/deliverability-dots.png);
+    background-image: url(../images/background/deliverability-envelope-box.png), url(../images/background/deliverability-envelopes.png);
     background-size: auto, auto;
     background-repeat: no-repeat;
-    background-position: 0 100%, 90% 65%, 0 100%, 100% 0;
+    background-position: 0 100%, 90% 65%;
   }
 }
 
@@ -1716,6 +1738,14 @@ body {
   text-align: center;
   color: #ffffff;
   margin: 0;
+}
+
+@media screen and (min-width: 1130px) {
+  .deliverability {
+    background-image: url(../images/background/deliverability-dots-left.png), url(../images/background/deliverability-dots.png);
+    background-position: 0 100%, 100% 0;
+    background-repeat: no-repeat;
+  }
 }
 
 .deliverability__marker {

@@ -1,5 +1,10 @@
 .information {
   background-color: #f3f9fe;
+  @media screen and (min-width: 1130px) {
+    background-image: url(../images/background/information-dots-l.png);
+    background-repeat: no-repeat;
+    background-position: 180px -193px;
+  }
 }
 .information__marker {
   padding-top: 60px;
@@ -13,10 +18,9 @@
 .information__container {
   @media screen and (min-width: 1130px) {
     background-image: url(../images/background/information_bg.png),
-      url(../images/background/information-dots-l.png),
       url(../images/background/information-dots-r.png);
     background-repeat: no-repeat;
-    background-position: 100% 65%, 0 -193px, 105% 80%;
+    background-position: 100% 65%, 105% 80%;
   }
 }
 

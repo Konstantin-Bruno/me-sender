@@ -2,13 +2,19 @@
   background-color: $main-background-color;
   text-align: center;
   margin: 0 auto;
-  &features__title {
+  @media screen and(min-width:1130px) {
+    background-image: url(../images/background/dots.png);
+    background-size: 385px 385px;
+    background-position: 104% -20%;
+    background-repeat: no-repeat;
+  }
+  &__title {
     margin-bottom: 49px;
     @media screen and(min-width:1130px) {
       margin-bottom: 60px;
     }
   }
-  &features__marker {
+  &__marker {
     padding-top: 60px;
     margin-bottom: 6px;
     @media screen and(min-width:1130px) {
@@ -24,10 +30,9 @@
   background-position: 224px -128px, 37px -33px;
   background-size: 256px 256px, 331px 267px;
   @media screen and(min-width:1130px) {
-    background-image: url(../images/background/dots.png),
-      url(../images/background/features-bg-l.png);
-    background-size: 385px 385px, 593px 479px;
-    background-position: 110% -20%, 100% 0;
+    background-image: url(../images/background/features-bg-l.png);
+    background-size: 593px 479px;
+    background-position: 100% 0;
     background-repeat: no-repeat;
   }
 }
